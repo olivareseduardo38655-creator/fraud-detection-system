@@ -1,0 +1,18 @@
+# Ignorar datos (son muy pesados y privados)
+data/
+*.csv
+*.parquet
+*.zip
+
+# Ignorar archivos de sistema y cache de Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+
+# Ignorar variables de entorno (claves secretas)
+.env
+
+# Ignorar carpeta de entorno virtual (si existiera)
+venv/
+env/
